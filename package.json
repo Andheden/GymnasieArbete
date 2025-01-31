@@ -1,0 +1,25 @@
+{
+  "name": "gymnasiearbete",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andheden/GymnasieArbete.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andheden/GymnasieArbete/issues"
+  },
+  "homepage": "https://github.com/Andheden/GymnasieArbete#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "http": "^0.0.1-security",
+    "socket.io": "^4.8.1"
+  }
+}
