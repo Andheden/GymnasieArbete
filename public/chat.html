@@ -5,9 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chat</title>
     <link rel="stylesheet" href="style.css">
-    <script src="index.js"></script>
+    <script src="index.js" defer></script>
+    <script src="client.js" defer></script>
 </head>
 <body>
+    <div id="message-container"></div>
+  <form id="chat-form">
+    <input
+            id="msg"
+            type="text"
+            placeholder="Enter Message"
+            required
+            autocomplete="off"
+          />
+          <button class="btn"><i class="send-msg-btn"></i> Send</button>
     
+  </form>
 </body>
 </html>

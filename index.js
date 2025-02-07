@@ -5,7 +5,7 @@ const socketio = require("socket.io");
 const app = express();
 const server = http.createServer(app);
 const io = socketio(server);
-
+server.listen(1010);
 app.use(express.static("public"));
 
 
@@ -23,4 +23,8 @@ io.on("connection", socket => {
 });
 
 
-server.listen(1010);
+
+
+app.get("/", (req, res) => {
+    res.sendFile(__dirname + "/public/chat.html")
+})
